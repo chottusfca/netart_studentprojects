@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url(../IMG/XP_Distort.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+/************
+* Title: Pagecloud: The easy way to add animations 
+    to your website [Animate.css]
+* Author: Philip Westfall
+* Date: June 6, 2019
+* Code version: N/A
+* Availability: https://www.pagecloud.com/blog/css-animations
+*************/
+
+.logo img {
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 300px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}

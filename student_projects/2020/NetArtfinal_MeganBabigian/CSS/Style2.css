@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+@import url("https://use.typekit.net/gdy7gnq.css");
+
+html {
+    box-sizing: border-box;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-image: url(../IMG/giphy.gif);
+
+}
+
+h1 {text-align: center;
+    font-size: 100px;
+    font-family: eloquent-jf-pro,serif;
+font-weight: 400;
+font-style: normal;
+    margin-left: 130px;
+    color: peachpuff;
+    text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+  
+    text-decoration:overline;
+    text-decoration-color: peachpuff;
+}
+
+
+
+main {
+    height: 400px;
+    width: 1500px;
+}
+
+h2 {
+    font-family: bookmania, serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    color: peachpuff;
+    line-height: 0.5px;
+}
+
+.rabbit {
+    width: 1000px;
+    height: 800px;
+    position: relative;
+    left: 275px;
+}
+
+.option1 a {
+    text-decoration: none;
+    color: peachpuff;
+    font-size: 25px;
+    font-family: bookmania, serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    left: 695px;
+}
+
+.option1 a:hover {
+    background-color: peachpuff;
+    color: black;
+}
+
+.option2 {
+    color: peachpuff;
+    font-size: 25px;
+    font-family: bookmania, serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+}
+
+.option2:hover{opacity: 0;}

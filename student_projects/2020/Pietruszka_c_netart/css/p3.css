@@ -1,0 +1,119 @@
+body {
+    background-color: dimgray;
+    min-height: 500px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+div {
+    font-family: 'Gruppo', cursive;
+    position: relative;
+    top: 300px;
+    color: black;
+    font-size: 40pt;
+    padding: 10px;
+    animation-name: fadein;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fadein {
+    0% {
+        font-size: 40pt;
+        transform: translate(0px, 0px)
+    }
+
+
+
+    100% {
+        font-size: 40pt;
+        opacity: 1;
+        transform: translate(0px, 20px)
+    }
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.t2 {
+    width: 400px;
+    padding-right: 100px;
+    
+}
+
+
+img{
+    animation-name: bounce;
+    animation-delay: 0s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes bounce {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    25% {
+        transform: translate(100px, 0px);
+    }
+
+    50% {
+        transform: translate(100px, 100px);
+    }
+
+    75% {
+        transform: translate(0px, 100px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.next {
+    font-size: 35pt;
+    padding-top: 100px;
+    position: relative;
+    background-color: transparent;
+    opacity: 0;
+    animation-name: fadein;
+    animation-delay: 6s;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fadein {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0px, 20px);
+    }
+
+
+}

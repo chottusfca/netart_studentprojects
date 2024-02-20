@@ -1,0 +1,319 @@
+/*-------------------------------------*/
+/*************INITIAL STYLING***********/
+/*-------------------------------------*/
+
+html {
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.container {
+    display: flex;
+}
+
+/*************INITIAL STYLING***********/
+
+/*-------------------------------------*/
+/************ANIMATION STYLING**********/
+/*-------------------------------------*/
+
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 15px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+/************ANIMATION STYLING**********/
+
+/*-------------------------------------*/
+/**************INDEX STYLING************/
+/*-------------------------------------*/
+
+img {
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/* link styling IS HERE*/
+a {
+    text-decoration: none;
+    color: #503ec2;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #e64ea4;
+}
+
+body {
+    font-family: Arial;
+    font-weight: 300;
+    background-color: #1f6191;
+    background-image: url("../img/windows_mock.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.letter {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    width: 125px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #203a91;
+    color: white;
+    text-align: center;
+}
+
+/**************INDEX STYLING************/
+
+/*-------------------------------------*/
+/*************SECTION STYLING***********/
+/*-------------------------------------*/
+section {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+section h4 {
+    background-color: navy;
+    font-weight: 100;
+    font-size: .8em;
+    color: white;
+    padding: .5%;
+    padding-bottom: 1.5%;
+    margin-bottom: -.6%;
+    border-top: 1px solid blue;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.inner_text {
+    /*    margin: auto;*/
+    padding: 1%;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.inner_text h1 {
+    color: #ff0000;
+}
+
+.email_box {
+    /*    margin: auto;*/
+    padding: 2%;
+    width: 100%;
+    background-color: white;
+}
+/*************SECTION STYLING***********/
+
+/*-------------------------------------*/
+/*************GEEMAIL STYLING***********/
+/*-------------------------------------*/
+
+.gmail_screen {
+    background-color: #E8EBE8;
+    background-image: url("../img/chaos.jpg");
+    padding: 25px 20px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.gmail_nav {
+    width: 20%;
+        background-color: #E8EBE8;
+}
+
+.gmail_inbox {
+    width: 80%;
+    padding: 10px;
+    padding-top: 5px;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    padding-top: 10px;
+    background-color: #E8EBE8;
+}
+
+tr {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+td,
+th {
+    text-align: left;
+    padding: 8px;
+    overflow: hidden;
+}
+
+.first {
+    width: 20%;
+}
+.second {
+    width: 50%;
+}
+
+.date {
+    width: 15%;
+    text-align: right;
+
+}
+
+/*************GEEMAIL STYLING***********/
+
+/*-------------------------------------*/
+/************ALT MAIL STYLING***********/
+/*-------------------------------------*/
+
+.alt {
+    background-image: url("../img/chaos.jpg");
+    color: white;
+}
+
+.alt .footer {
+    background-color: aqua;
+}
+
+.alt .email_box {
+/*    background-color: black;*/
+    background-color: #1a1c26;
+}
+
+.alt a {
+    color:aqua;
+    border: 2px dashed white;
+    padding: 8px;
+    font-size: 100px;
+}
+
+.center {
+    margin: 0;
+    margin-left: 80%;
+    width: 30%;
+    text-align: center;
+/*    background-color: beige;*/
+}
+
+/************ALT MAIL STYLING***********/
+
+/*-------------------------------------*/
+/************EMAIL TXT STYLING**********/
+/*-------------------------------------*/
+
+/* this resizes text to the largest I want */
+.obliterate {
+    font-size: 75px;
+}
+
+.medium {
+    font-size: 160px;
+}
+
+.mid_obliterate {
+    font-size: 50px;
+}
+
+.red {
+    color: #ff0000;
+}
+.blue {
+    color:aqua;
+}
+.highlight {
+    display:inline;
+    background-color: magenta;
+}
+
+.experiment {
+    padding-top: 10%;
+    font-size: 50px;
+    text-align: right;
+    font-style: italic;
+    color: #00ff15;
+}
+
+.experiment u {
+    background-color: red;
+    color: yellow;
+}
+
+.special u{
+    background-color: aqua;
+    color: #1a1c26;
+}
+
+.warning {
+    margin-left: 30%;
+}
+
+.hi {
+    width: 100%;
+    margin-left: -10%
+}
+
+.displace {
+
+    margin-left: -15%;
+    width: 700px;
+/*    background-color: aqua;*/
+    overflow-x: visible;
+    display: block;
+}
+
+.white {
+    color: white;
+}
+
+.space {
+    width: 35%;
+    margin: 5%;
+}
+
+.change {
+    margin-left: 15%;
+}
+
+.final_message {
+    text-align: center;
+}
+
+.move_up {
+    margin-top: -10%;
+    margin-left: 10%;
+}
+
+/************EMAIL TXT STYLING**********/

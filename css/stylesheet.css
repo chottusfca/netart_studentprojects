@@ -8,13 +8,13 @@
 body {
     margin: 5px; 
     margin: auto; 
-    background-color: azure;
+    background-color: rgb(115, 223, 223);
     font-family: 'VT323', monospace;
-    color: darkblue; 
+    color: rgb(4, 4, 79); 
 }
 
 header {
-    background-color: azure;
+    background-color: rgb(115, 223, 223);
     width: 100%;
     padding: 5px; 
     border: 1px darkblue solid;
@@ -62,7 +62,7 @@ main {
 a {
     font-size: 1.5em;
     text-decoration: none;
-    color: darkblue; 
+    color: rgb(4, 4, 79); 
 }
 
 section {
@@ -79,11 +79,12 @@ section h1 {
 }
 
 a h5:hover {
-    background-color: yellow;
+    background-color: rgb(221, 149, 214);
 }
 
 #title {
     text-align: center;
+    margin: auto; 
 }
 
 #current {

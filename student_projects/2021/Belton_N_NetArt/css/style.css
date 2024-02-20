@@ -1,0 +1,37 @@
+html {
+    box-sizing:border-box;}
+    
+*,
+*:before
+*:after {box-sizing: inherit;}
+
+body {
+    background-image: url(../img/aura.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: -webkit-grab;cursor: grab;
+    margin: 0 auto;
+    padding: 0;}
+
+
+img {
+    padding-top: 25%;
+    display: block;
+    margin: auto;}
+
+main {
+    margin: auto;}
+
+button {
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+}
+embed {display:none;}
+button:active + embed { display: block; }
+
+
+
+
+
+

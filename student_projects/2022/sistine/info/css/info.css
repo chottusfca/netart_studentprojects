@@ -1,0 +1,19 @@
+body {
+    background-color: #ffdadd;
+    margin: 50px;
+    cursor: not-allowed;
+
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    cursor: not-allowed;
+}
+
+img {
+    width: 70%;
+    height: 100%;
+    cursor: not-allowed;
+}

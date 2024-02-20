@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Cantarell|VT323&display=swap');
+
+html{
+  box-sizing:border-box;
+}
+
+*;
+*:before;
+*:after{
+
+}
+  box-sizing:inherit;
+}
+body {
+    background:white;
+    font-family: 'VT323', monospace;
+    margin:0, auto;
+    padding:0;
+    font-size: 30px;
+ 	
+}
+
+
+h1 {
+  color: black;
+  text-align: center;
+  margin:200px;
+
+}
+
+.pst {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: lightblue;
+    text-align: center;
+}
+#pst1
+{
+   animation:pulse 2s infinite;
+   font-size: 20px;
+}
+#pst2
+{
+   animation:pulse 2s infinite;
+   font-size: 35px;
+
+}
+
+#pst3
+{
+   animation:pulse 4s infinite;
+   font-size: 80px;
+
+}
+
+
+
+@keyframes pulse {
+  0% {transform: scale(1.0);}
+  50% {transform: scale(1.2);}
+  100% {transform: scale(1.0);}
+}
+
+.pulse {
+  animation:pulse 1s infinite;
+  text-align: center;
+
+}
+
+
+

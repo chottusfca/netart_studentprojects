@@ -1,0 +1,17 @@
+h2{width: 200px;
+    background-image: url("../img/squigwhite.png");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 1em;
+    border-bottom: 0;
+    padding-bottom: 7px;
+    text-decoration: none;
+    animation: squig  4s infinite both linear;
+}
+
+@keyframes squig{
+    0%{} 
+    100%{
+        background-position:.2em bottom;
+    }
+}

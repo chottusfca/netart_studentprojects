@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans+JP:wght@100&display=swap");
+
+@font-face {
+  font-family: "Mario-Kart-DS";
+  src: url(fonts/Mario-Kart-DS.tff);
+}
+/*Home*/
+#index {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#index .container {
+  margin-top: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5vmin;
+}
+
+#index #google {
+  width: 50vw;
+}
+
+/*back button*/
+nav {
+  padding-left: 2%;
+  padding-top: 1%;
+}
+
+.dropdown {
+  /* height: 0; */
+  transition: 0.2s ease-in-out;
+  width: 40vw;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* The container <div> - needed to position the dropdown content W3 Schools*/
+.dropdown-toggle {
+  background-color: #f1f1f1;
+  height: 5vh;
+  width: 40vw;
+}
+
+/* Dropdown Content (Hidden by Default) W3 Schools*/
+.dropdown-content {
+  display: none;
+  background-color: #f1f1f1;
+}
+
+/* Links inside the dropdown W3 Schools*/
+.dropdown-content a {
+  display: flex;
+  align-items: center;
+  color: black;
+  padding-left: 16px;
+  height: 5vh;
+  text-decoration: none;
+  font-family: inter;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover #dropbtn {
+  background-color: #3e8e41;
+}
+
+/*Typing Practice Game */
+
+#zworg {
+  background-image: url("../img/background_zworg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#zworg h1 {
+  color: aliceblue;
+  font-family: Inter;
+}
+/* get help!!!*/
+#zworg h1 {
+  text-align: center;
+}
+
+.typaoke {
+  background-color: white;
+  padding: 35px;
+  width: 770px;
+  height: 300px;
+  border-radius: 10px;
+  border: dashed;
+  overflow-y: scroll;
+  position: relative;
+  text-align: left;
+  margin: auto;
+}
+
+#zworg .typaoke_untyped {
+  color: black;
+  font-family: Inter;
+  font-size: 15px;
+}
+
+#zworg .typaoke_typed {
+  color: cadetblue;
+  font-family: inter;
+  font-size: 15px;
+}
+
+#zworg h2 {
+  color: white;
+  font-family: inter;
+  text-align: center;
+  animation-name: text-rotate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes text-rotate {
+  from {
+    position: relative;
+  }
+  to {
+    transform: scale(2, 2);
+    transition-duration: 1s;
+    top: 0px;
+    transition-timing-function: ease;
+  }
+}
+
+/* Pixie Hollow Sim */
+#pixie-hollow {
+  background-image: url("../img/background_pixie_hollow.jpeg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  cursor: none;
+}
+
+#pixie-hollow .cursor {
+  width: 250px;
+  height: 250px;
+  background-image: url("../img/pixie_asset.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+
+#pixie-hollow .sparkle-trail {
+  position: absolute;
+  pointer-events: none;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#pixie-hollow .sparkle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  clip-path: polygon(
+    50% 0%,
+    63% 38%,
+    100% 38%,
+    69% 59%,
+    82% 100%,
+    50% 75%,
+    18% 100%,
+    31% 59%,
+    0% 38%,
+    37% 38%
+  );
+  background-color: lemonchiffon;
+  animation: sparkle 1s linear forwards;
+  opacity: 0;
+}
+
+@keyframes sparkle {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(10px, 10px) scale(0.5);
+    opacity: 0;
+  }
+}
+
+/* Dress Up Game */
+#girls-go-games {
+  background-image: url("../img/background_dress_up.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* #barbie-logo {
+background-image: url(../img/logo_barbie.svg);
+width: 200px;
+height: 400px;
+background-repeat: no-repeat;
+left: 20%;
+top: 90%;
+bottom: 10%;
+} */
+
+#girls-go-games #head {
+  background-image: url(../img/head_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+#top1 {
+  width: 260px;
+  height: 300px;
+  left: 30%;
+  z-index: 5;
+  background-image: url("../img/striped_top.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#top2 {
+  width: 260px;
+  height: 300px;
+  right: 20%;
+  top: -40%;
+  z-index: 5;
+  background-image: url("../img/yellow_top.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#top3 {
+  width: 260px;
+  height: 300px;
+  left: 30%;
+  z-index: 5;
+  background-image: url("../img/tropical_top.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#top4 {
+  width: 350px;
+  height: 380px;
+  top: 40%;
+  left: 30%;
+  z-index: 5;
+  background-image: url("../img/turtleneck_top.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#top5 {
+  width: 260px;
+  height: 300px;
+  left: 30%;
+  z-index: 5;
+  background-image: url("../img/black_top.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#bottom1 {
+  width: 300px;
+  height: 370px;
+  left: 50%;
+  z-index: 4;
+  background-image: url("../img/glitter_bottoms.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#bottom2 {
+  width: 300px;
+  height: 370px;
+  left: 50%;
+  z-index: 4;
+  background-image: url("../img/pink_skirt.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#bottom3 {
+  width: 350px;
+  height: 500px;
+  left: 50%;
+  z-index: 4;
+  background-image: url("../img/black_bottoms.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#bottom5 {
+  width: 300px;
+  height: 370px;
+  left: 50%;
+  z-index: 4;
+  background-image: url("../img/green_skirt.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.draggable {
+  position: absolute;
+  z-index: 9;
+}

@@ -1,0 +1,60 @@
+body {
+    background-color:darkgoldenrod;
+    min-height: 500px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+div {
+    font-family: 'Gruppo', cursive;
+    position: relative;
+    margin-top: 300px;
+    color: white;
+    font-size: 40pt;
+    padding: 10px;
+    animation-name: fadein;
+    animation-delay: 0;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fadein {
+    0% {
+        transform: translate(0px, 0px)
+    }
+
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0px, 20px)
+    }
+
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition-property: font-size, color;
+    transition-duration: 2s;
+
+}
+
+a:hover {
+    font-size: 37pt;
+    color: #FDF098;
+}
+
+.t2 {
+    top: none;
+    font-size: 25pt;
+    text-align: center;
+}

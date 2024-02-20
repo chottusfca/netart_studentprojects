@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Fontdiner+Swanky&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background: darkblue;
+}
+
+h1 {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+h1,
+p {
+    font-family: 'Fontdiner Swanky', cursive;
+    letter-spacing: 3px;
+    color: skyblue;
+    padding: 20px;
+}
+
+.flex-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 10em);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "red orange yellow green blue purple";
+    grid-gap: 1em;
+    margin: 1em;
+    
+}
+
+
+
+#red {
+    grid-area: red;
+    background-color: red;
+    grid-column: 1;
+    grid-row: 1;
+    height: 5em;
+    width: 10em;
+    text-align: center;
+}
+
+#orange {
+    grid-area: orange;
+    background-color: orange;
+    grid-column: 2;
+    grid-row: 1;
+    height: 5em;
+    width: 10em;
+    text-align: center;
+}
+
+#yellow {
+    grid-area: yellow;
+    background-color: yellow;
+    grid-column: 3;
+    grid-row: 1;
+    height: 5em;
+    width: 10em;
+    text-align: center;
+}
+
+#green {
+    grid-area: green;
+    background-color: green;
+    grid-column: 1;
+    grid-row: 2;
+    height: 5em;
+    width: 10em;
+    text-align: center;
+}
+
+#blue {
+    grid-area: blue;
+    background-color: blue;
+    grid-column: 2;
+    grid-row: 2;
+    height: 5em;
+    width: 10em;
+    text-align: center;
+}
+
+#purple {
+    grid-area: purple;
+    background-color: purple;
+    grid-column: 3;
+    grid-row: 2;
+    height: 5em;
+    width: 10em;
+    text-align: center;
+}
+
+#redshirt {
+    background-image: url(../img/redpenguin.png);
+    height: 590px;
+    width: 420px;
+}
+
+#redshirt:hover {
+    background-image: url(../img/redshirt-01.png);
+    height: 590px;
+    width: 420px;
+}
+
+#orangedress {
+    background-image: url(../img/orangepenguin.png);
+    height: 590px;
+    width: 420px;
+}
+
+#orangedress:hover {
+    background-image: url(../img/orangedress-01.png);
+    height: 590px;
+    width: 420px;
+}
+
+#yellowpants {
+    background-image: url(../img/yellowpenguin.png);
+    height: 590px;
+    width: 420px;
+}
+
+#yellowpants:hover {
+    background-image: url(../img/yellowpants-01.png);
+    height: 590px;
+    width: 420px;
+}
+
+#greenrobber {
+    background-image: url(../img/greenpenguin.png);
+    height: 590px;
+    width: 420px;
+}
+
+#greenrobber:hover {
+    background-image: url(../img/greenrobber-01.png);
+    height: 590px;
+    width: 420px;
+}
+
+#fancyblue {
+    background-image: url(../img/bluepenguin.png);
+    height: 590px;
+    width: 420px;
+}
+
+#fancyblue:hover{
+    background-image: url(../img/fancyblue-01.png);
+    height: 590px;
+    width: 420px;
+}
+#purpleskate {
+    background-image: url(../img/purplepenguin.png);
+    height: 590px;
+    width: 420px;
+}
+
+#purpleskate:hover{
+    background-image: url(../img/purpleskate-01.png);
+    height: 590px;
+    width: 420px;
+}

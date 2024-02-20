@@ -1,0 +1,123 @@
+html {
+    box-sizing: border-box;
+}
+
+
+*,
+*:before,
+*:after, {box-sizing: inherit}
+
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #f25144
+    }
+
+
+.img {
+    max-width: 100%;
+    height: auto;
+    }
+
+
+h1 {
+    text-align: center;
+    padding: 40px;
+    color:#000000;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 10px;
+}
+
+
+a {
+    color: white;
+    font-style: oblique;
+    text-decoration-line: none;
+}
+
+
+h2 {
+    text-align: center;
+    padding-top: 40px;
+    color:#000000;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h3 {
+    text-align: center;
+    padding-bottom: 50px;
+    color:#000000;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 10px;
+}
+
+
+
+
+
+/* Code for animation from https://css-tricks.com/snippets/css/typewriter-effect/ */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+/* Global */
+html{
+  min-height: 100%;
+  overflow: hidden;
+}
+body{
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: rgba(255,255,255,.75);
+  font-family: 'Anonymous Pro', monospace;  
+}
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+
+
+
+
+
+h4 {
+    text-align: left;
+    padding-left: 60px;
+    color:#000000;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 10px;
+}
+
+
+h5 {
+    text-align: center;
+    color:#000000;
+    font-size: 180px;
+    line-height: 300px;
+    font-family: 'Bungee Shade', cursive;
+}

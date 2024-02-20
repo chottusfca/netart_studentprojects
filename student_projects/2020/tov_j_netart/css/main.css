@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+
+html {
+    background: url(../img/compute.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    background-color: black;
+    background-position: center;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 33px;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    color: lightcyan;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    display: inline-block;
+}
+
+
+/*
+header {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #7A8BEB;
+    letter-spacing: 15px;
+    background-color: lightyellow;
+    margin: -10px;
+    width: 100vw;
+}
+
+header a {
+    font-family: 'Inconsolata', monospace;
+    font-size: 33px;
+    color: #7A8BEB;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+*/
+
+/*
+nav {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    margin: -10px;
+    background-color: lightyellow;
+}
+
+nav a {
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    color: #7A8BEB;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 60px;
+}
+*/
+
+a {
+    color: lightgoldenrodyellow;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+a:hover {
+    color: blueviolet;
+}
+
+
+
+#computer {
+    width: auto;
+    height: 70vh;
+}
+
+img {
+    width: 100%;
+    position: relative;
+    transform: translate(300px, -200px)
+}
+
+h2 {
+    text-align: center;
+}
+
+
+
+.window {
+    width: 988px;
+    height: 538px;
+    /*    overflow: auto;*/
+    background: blue;
+    position: static;
+    transform: translate(-122px, -5px);
+    margin-top: 30px;
+}
+
+.window2 {
+    width: 970px;
+    height: 530px;
+    /*    overflow: auto;*/
+    background: blue;
+    position: static;
+    transform: translate(220px, 65px);
+}
+
+.window3 {
+    width: 983px;
+    height: 535px;
+    /*    overflow: auto;*/
+    background: lightblue;
+    position: absolute;
+    transform: translate(411px, 7px);
+    margin-top: 30px;
+}
+
+.black {
+    background-color: black;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+}
+}
+
+/*
+.container {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    border: none;
+}
+*/
+
+
+#sis img {
+    width: 400px;
+    position: static;
+}
+
+
+p {
+    font-size: 18px;
+    margin: 10px 10px 50px 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 30px;
+    text-align: center;
+    max-width: 600px;
+    color: lightcyan;
+    width: 20em;
+    animation: type 5s steps(60, end);
+}
+
+p:nth-child(2) {
+    animation: type2 8s steps(60, end);
+}
+
+p a {
+    color: lightcyan;
+    text-decoration: none;
+}
+
+span {
+    animation: blink 1s infinite;
+}
+
+@keyframes type {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes type2 {
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 0;
+    }
+
+    100% {
+        width: 100;
+    }
+}
+
+@keyframes blink {
+    to {
+        opacity: .0;
+    }
+}
+
+::selection {
+    background: black;
+}
+
+.log {
+    position: fixed;
+    transform: translate(800px, 350px);
+}
+
+.log a {
+    width: 40px;
+    position: absolute;
+    transform: translate(130px, 30px);
+    font-size: 16px;
+}
+
+#igloo {
+    position: absolute;
+    width: 17em;
+    left: -24em;
+    top: -12.5em;
+    transform: translate(-600px, -400px);
+    transform: scale (0,0);
+    animation-name: igloo;
+    animation-duration: .25s;
+    animation-delay: 3s;
+    animation-fill-mode:both;
+}
+
+@keyframes igloo {
+    from {
+        transform: scale(0,0);
+    }
+    to {
+        transform: scale(1,1);    
+    }
+}
+
+#penguin {
+    position: fixed;
+    width: 9em;
+    top: -12em;
+    left: -4em;
+    transform: scale (0,0);
+    animation-name: penguin;
+    animation-duration: .25s;
+    animation-delay: 4s;
+    animation-fill-mode:both;
+}
+
+@keyframes penguin {
+    from {
+        transform: scale(0,0);
+    }
+    to {
+        transform: scale(1,1);    
+    }
+}
+
+#kim{
+    position: fixed;
+    width: 17em;
+    top: -8em;
+    left: -14.5em;
+    transform: scale (0,0);
+    animation-name: kim;
+    animation-duration: .25s;
+    animation-delay: 5s;
+    animation-fill-mode:both;
+}
+
+@keyframes kim {
+    from {
+        transform: scale(0,0);
+    }
+    to {
+        transform: scale(1,1);    
+    }
+}
+
+#lilo{
+    position: fixed;
+    width: 10em;
+    top: -3.8em;
+    left: -6em;
+    transform: scale (0,0);
+    animation-name: lilo;
+    animation-duration: .25s;
+    animation-delay: 6s;
+    animation-fill-mode:both;
+}
+
+@keyframes lilo {
+    from {
+        transform: scale(0,0);
+    }
+    to {
+        transform: scale(1,1);    
+    }
+}
+
+#stitch {
+    position: fixed;
+    width: 11em;
+    top: -13em;
+    left: -25em;
+    transform: scale (0,0);
+    animation-name: stitch;
+    animation-duration: .25s;
+    animation-delay: 6.5s;
+    animation-fill-mode:both;
+}
+
+@keyframes stitch {
+    from {
+        transform: scale(0,0);
+    }
+    to {
+        transform: scale(1,1);    
+    }
+}
+
+#caitlynn {
+    position: absolute;
+    width: 20em;
+    transform: translate(-650px, 200px);
+}
+
+#jo {
+    position: absolute;
+    width: 20em;
+    transform: translate(-650px, 200px);
+}
+
+#spaniel {
+    position: absolute;
+    width: 10em;
+    transform: translate(-360px, 520px);
+}
+
+#dog {
+    position: absolute;
+    width: 11em;
+    left: -7em;
+    top: -6.3em;
+    transform: translate(-600px, -400px);
+    transform: scale (0,0);
+    animation-name: dog;
+    animation-duration: .25s;
+    animation-delay: 5s;
+    animation-fill-mode:both;
+}
+
+@keyframes dog {
+    from {
+        transform: scale(0,0);
+    }
+    to {
+        transform: scale(1,1);    
+    }
+}
+
+#myscene {
+    position: absolute;
+    width: 15em;
+    left: -9.5em;
+    top: -13.5em;
+    transform: translate(-600px, -400px);
+    transform: scale (0,0);
+    animation-name: myscene;
+    animation-duration: .25s;
+    animation-delay: 4s;
+    animation-fill-mode:both;
+}
+
+@keyframes myscene {
+    from {
+        transform: scale(0,0);
+    }
+    to {
+        transform: scale(1,1);    
+    }
+}
+
+#nails {
+    position: absolute;
+    width: 20em;
+    left: -24.3em;
+    top: -9.3em;
+    transform: translate(-600px, -400px);
+    transform: scale (0,0);
+    animation-name: nails;
+    animation-duration: .25s;
+    animation-delay: 3s;
+    animation-fill-mode:both;
+}
+
+@keyframes nails {
+    from {
+        transform: scale(0,0);
+    }
+    to {
+        transform: scale(1,1);    
+    }
+}
+
+#hannah {
+    position: fixed;
+    width: 5em;
+    top: -12em;
+    left: -22em;
+    transform: scale (0,0);
+    animation-name: hannah;
+    animation-duration: .25s;
+    animation-delay: 6s;
+    animation-fill-mode:both;
+}
+
+@keyframes hannah {
+    from {
+        transform: scale(0,0);
+    }
+    to {
+        transform: scale(1,1);    
+    }
+}

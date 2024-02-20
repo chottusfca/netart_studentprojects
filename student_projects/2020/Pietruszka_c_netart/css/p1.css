@@ -1,0 +1,117 @@
+body {
+    background-color: dimgray;
+    min-height: 500px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+div {
+    font-family: 'Gruppo', cursive;
+    position: relative;
+    top: 300px;
+    color: black;
+    font-size: 40pt;
+    padding: 10px;
+    animation-name: fadein;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fadein {
+    0% {
+        font-size: 40pt;
+        transform: translate(0px, 0px)
+    }
+
+
+
+    100% {
+        font-size: 40pt;
+        opacity: 1;
+        transform: translate(0px, 20px)
+    }
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    width: 100px;
+}
+.squareleft {
+    z-index: 1;
+    position: fixed;
+    top: -100px;
+    left: -150px;
+    width: 100px;
+    height: 2000px;
+    background: white;
+    transition-timing-function: ease;
+    transition-duration: 4s;
+}
+
+.squareright {
+    z-index: 1;
+    position: fixed;
+    top: -100px;
+    right: -150px;
+    width: 100px;
+    height: 2000px;
+    background: white;
+    transition-timing-function: ease;
+    transition-duration: 4s;
+}
+
+.t2 {
+    height: 90px;
+    color: black;
+}
+
+.t2:active + .squareright {
+    width: 60%;
+}
+
+.t2:active ~ .squareleft {
+    width: 130%;
+}
+
+.next {
+    font-size: 35pt;
+    position: relative;
+    background-color: transparent;
+    opacity: 0;
+    animation-name: fadein;
+    animation-delay: 6s;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fadein {
+    0% {
+        transform: translate(0px, 0px)
+    }
+
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0px, 20px);
+    }
+
+
+}

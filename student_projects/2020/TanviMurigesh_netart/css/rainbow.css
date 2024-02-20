@@ -1,0 +1,32 @@
+body{
+    background-image: url("../img/rainbowbg.jpg");
+    background-size: cover;
+    color: linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+
+}
+
+/*rainbow shifting gradient refreced from here https://stackoverflow.com/questions/40557461/rainbow-gradient-on-text-in-css*/
+h2, article p, .list, footer{
+    color: #fff;
+  background: linear-gradient(to right, #fea3aa, #f8b88b , #faf884, #baed91, #b2cefe, #f2a2e8);
+    background-repeat: repeat-x;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    animation: shift infinite 7s;
+}
+.truth{
+    color: white;
+    
+}
+@-webkit-keyframes shift{
+  0{
+    background-position: 70px 0px;
+  }100%{
+    background-position: 700px 0px;
+  }
+}
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}

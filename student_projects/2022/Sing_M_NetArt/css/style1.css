@@ -1,0 +1,44 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    background-color: cadetblue;
+    background-size: cover;
+    background-repeat: repeat;
+    text-align: center;
+    margin-top: 70px;
+    color: black;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: cadetblue;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 5%;
+}
+
+.move {
+    display: inline-block;
+    margin-left: 10%;
+    width: 30%;
+}
+
+.movement{
+    display: inline;
+    width: 30%;

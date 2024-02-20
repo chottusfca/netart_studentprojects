@@ -1,0 +1,89 @@
+html {
+    background-image: url("../img/wordbackground-01.png");
+    background-size: cover;
+    box-sizing: border-box;
+    font-size:100%;
+    overflow-y: hidden;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+.fontdrop {
+    position: absolute;
+    top: 17%;
+    left: 2.8%;
+    opacity: 100%;
+}
+.fontbutton {
+    position: absolute;
+    top: 29.2%;
+    left: 3.3%;
+    opacity: 0%;
+}
+.fontdrop:hover ~ .fontbutton {
+    opacity: 100%;
+}
+.text {
+    position: absolute;
+    top: 60%;
+    left: 22%;
+    text-align: center;
+}
+.text .thetext img {
+    position: absolute;
+    bottom: -300%;
+    left: 30%;
+    opacity: 0%;
+}
+.word1:hover > img {
+    opacity: 100%;
+}
+.word2:hover > img {
+    opacity: 100%;
+}
+.word3:hover > img {
+    opacity: 100%;
+}
+.word4:hover > img {
+    opacity: 100%;
+}
+.word5:hover > img {
+    opacity: 100%;
+}
+.word6:hover > img {
+    opacity: 100%;
+}
+.word7:hover > img {
+    opacity: 100%;
+}
+.word8:hover > img {
+    opacity: 100%;
+}
+.word9:hover > img {
+    opacity: 100%;
+}
+.word10:hover > img {
+    opacity: 100%;
+}
+.word11:hover > img {
+    opacity: 100%;
+}
+.word12:hover > img {
+    opacity: 100%;
+}
+.word13:hover > img {
+    opacity: 100%;
+}
+.word14:hover > img {
+    opacity: 100%;
+}
+.word15:hover > img {
+    opacity: 100%;
+}
+

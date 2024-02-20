@@ -1,0 +1,193 @@
+body {
+    background-color: black;
+    min-height: 1000px;
+    min-width: 1600px;
+    display: flex;
+    flex direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Gruppo', cursive;
+
+
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 2800px;
+    color: white;
+    font-size: 40pt;
+    padding: 50px;
+    padding-top: 250px;
+}
+
+
+
+.t1 {
+    position: relative;
+    opacity: 0;
+    animation-name: fall;
+    animation-delay: 0s;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes fall {
+
+    from {
+        top: 0px;
+        opacity: 0;
+    }
+
+    to {
+        top: 340px;
+        opacity: 1;
+    }
+}
+
+.sea {
+    z-index: -1;
+    position: absolute;
+    background-image: url(../img/jellywater.gif);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    transform: translate(-50px, -300px)
+}
+
+.t2 {
+    position: relative;
+    top: 370px;
+    opacity: 0;
+    animation-name: appear;
+    animation-delay: 4s;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes appear {
+
+    0% {
+        color: white;
+
+        opacity: 0;
+    }
+
+    40% {
+        color: white;
+
+        opacity: 1;
+    }
+
+    45% {
+        color: #FDF098;
+        opacity: 1;
+
+    }
+
+    55% {
+        color: #FDF098;
+        opacity: 1;
+    }
+
+    60% {
+        color: white;
+        opacity: 1;
+
+    }
+
+    100% {
+        color: white;
+        opacity: 1;
+
+    }
+
+}
+
+
+@keyframes {
+    0%{
+        transform: 
+    }
+}
+
+.flash {
+    background: url(../img/mouse.svg) bottom center no-repeat;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    width: 434px;
+    height: 419px;
+    transform: translate(580px, 260px) scale(.1);
+    animation: flashrotate 7s linear;
+    animation-delay: 0s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+
+}
+
+@keyframes flashrotate {
+    0% {
+        transform: translate(580px, 260px)  rotate(0deg);
+    }
+
+    80% {
+        transform: translate(580px, 260px) rotate(360deg);
+    }
+
+    100% {
+        transform: translate(580px, 260px) rotate(540deg);
+    }
+}
+
+
+.flash:active {
+    animation-play-state: paused;
+}
+
+
+
+.next {
+    top: -100pt;
+    left: 400pt;
+    font-size: 30pt;
+    position: relative;
+    background-color: transparent;
+    opacity: 0;
+    animation-name: fadein;
+    animation-delay: 6s;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fadein {
+    0% {
+        transform: translate(0px, 0px)
+    }
+
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0px, 20px);
+    }
+
+
+}

@@ -1,0 +1,534 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+
+body {
+    background-color: #FFEFBF;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.money:hover{
+    transform: scale(1.2);
+}
+
+.energy:hover{
+    transform: scale(1.2);
+}
+
+.nextroom{
+    position: relative;
+    top: 8px;
+
+}
+.nextroom :hover{
+    transform: scale(1.2);
+}
+
+.backgroundbathroom{
+    background-image: url(../Img/transparentbathroombackground.png);
+    background-repeat: repeat;
+}
+
+.backgroundtable{
+    background-image: url(../Img/500px-diningroombackground.png);
+    background-repeat: repeat;
+}
+
+.backgroundlibrary{
+    background-image: url(../Img/transparentlibrarybackground.png);
+    background-repeat: repeat;
+}
+
+.backgroundhome{
+    /* background-image: url(../Img/text.png);
+    background-repeat: repeat-x; */
+}
+
+.containerheader{
+    display: flex;
+    background-color: #7899E8;
+    border-radius: 20px;
+    padding: 20px;
+    justify-content: center;
+    margin: 16px 0px 16px 0px;
+}
+
+.containerheader img:hover{
+    transform: scale(1.2);
+}
+
+.maininformation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 24px 0px 8px 0px;
+}
+
+.audio{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: -20px;
+    width: 0px;
+}
+
+.diningtablevector{
+    background-image: url(../Img/diningroomchangecandelabro.png);
+    background-position: 0px 0px;
+    margin-top: 0%;
+    height: 618px;
+    width: 800px;
+}
+
+.diningtablevector:hover{
+    background-image: url(../Img/diningroomchangecandelabro.png);
+    background-position: 0px -624px;
+}
+
+.bathroomvector{
+    background-image: url(../Img/bathroomchange.png);
+    background-position: 0px 0px;
+    margin-top: 0%;
+    height: 619px;
+    width: 800px;
+}
+
+.bathroomvector:hover{
+    background-image: url(../Img/bathroomchange.png);
+    background-position: 0px -619px;  
+}
+
+.libraryvector{
+    /* transform: translateX(-21px); */
+    background-image: url(../Img/librarychange.png);
+    background-position: 0px 0px;
+    margin-top: 0%;
+    height: 582px;
+    width: 800px;
+}
+
+.libraryvector:hover{
+    background-image: url(../Img/librarychange.png);
+    background-position: 0px -593.9px;  
+}
+
+.sidetool{
+
+    background-color: #FFDC74;
+    border-radius: 18px;
+    padding: 10px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.hammer{
+    animation-name: hammer;
+    padding: 17px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.hammer:hover{
+    transform: scale(1.2);
+    background-color: #7899E8; 
+}
+
+.friends{
+    animation-name:friends;
+    padding: 18px 20px;
+    border-radius: 20px;
+}
+
+.friends:hover{
+    transform: scale(1.2);
+    background-color: #7899E8; 
+}
+
+.message{
+    animation-name:message;
+    padding: 28px 18px;
+    border-radius: 20px;
+}
+
+.message:hover{
+    transform: scale(1.2);
+    background-color: #7899E8; 
+}
+
+    
+.boxitems{
+    display: flex;
+    background-color: #7899E8;
+    border-radius: 18px;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    max-width: 800px;
+    position: relative;
+    top:-370px;
+}
+
+.item1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.item1 :hover{
+    transform: scale(1.14);
+    /* border: 4px #FFDC74 solid; */
+}
+
+.item2 :hover{
+    transform: scale(1.14);
+    /* border: 4px #FFDC74 solid; */
+}
+
+.item3 :hover{
+    transform: scale(1.14);
+    /* border: 4px #FFDC74 solid; */
+}
+
+.item4 :hover{
+    transform: scale(1.14);
+    /* border: 4px #FFDC74 solid; */
+}
+
+audio{
+    position:relative;
+    left:-20px;   
+}
+
+
+.headerlogo{
+    display: flex;
+    border-radius: 20px;
+    padding: 20px;
+    justify-content: center;
+    margin: -150px 0px 40px 0px;    
+}
+
+
+.doors{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 180px 0px 8px 0px;
+}
+
+.door1{
+    animation-name: door1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate;
+    transform: scale(1.2);
+    
+}
+
+@keyframes door1{
+    0%   {left:0px; top:0px;}
+    100%  {left:0px; top:18px;}
+}
+
+.door1:hover{
+    transform: scale(1.4);
+}
+
+.door2{
+    animation-name: door1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate;
+    /* transform: scale(1.); */
+}
+
+@keyframes door1{
+    0%   {left:0px; top:0px;}
+    100%  {left:0x; top:-18px;}
+}
+
+.door2:hover{
+    transform: scale(1.4);
+}
+
+.door3{
+    animation-name: door1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate;
+    transform: scale(1.2);
+}
+
+@keyframes door1{
+    0%   {left:0px; top:0px;}
+    100%  {left:0x; top:-18px;}
+}
+
+.door3:hover{
+    transform: scale(1.4);
+}
+
+
+.audioindex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 20px;
+    position: relative;
+    right: -260px;
+    top: -90px;
+    opacity: 80%;
+}
+
+
+
+.information{
+    position: relative;
+    right: 30px;
+    top: 30px;
+    opacity: 80%;
+}
+
+
+
+.gif{
+    position: relative;
+    top: -60px;
+    left: 160px;
+}
+
+.gif{
+animation-name: gif;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+/* position: relative; */
+animation-direction: alternate;
+}
+
+/* @keyframes gif{
+    0%   {left:0px; top:-60;}
+    100%  {left:0x; top:-20px;}
+} */
+.indexfooter{
+    animation-name: indexfooter;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+@keyframes indexfooter{
+    0%   {left:0px; top:0;}
+    100%  {left:0px; top:-90px;}
+}
+
+.gif .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 20px;
+    border-radius: 18px;
+    left: 260px;
+    line-height: 140%;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+
+.gif:hover .tooltiptext {
+    visibility: visible;
+  }
+
+.gif .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent white transparent transparent;
+  }
+
+.avatardiningroom{
+    position: relative;
+    left:20px;
+    /* right: -40px; */
+    /* top: -380px;  */
+    animation-name: avatardiningroom;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;   
+    animation-timing-function: linear;
+    max-width: 300px;
+}
+
+@keyframes avatardiningroom{
+    0%   {left:20px; top:-380px;}
+    100%  {left:500px; top:-380px;}
+}
+
+.avatardiningroom .tooltiptext {
+    visibility: hidden;
+    width: 220px;
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 20px;
+    border-radius: 18px;
+    left: 220px;
+    line-height: 140%;
+    font-family: 'Raleway', sans-serif;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+
+.avatardiningroom:hover .tooltiptext {
+    visibility: visible;
+  }
+
+.avatardiningroom .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent white transparent transparent;
+  }
+.avatarlibrary{
+    position: relative;
+    left:25px;
+    /* right: -40px; */
+    /* top: -380px;  */
+    animation-name: avatarlibrary;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;   
+    animation-timing-function: linear;
+    max-width: 300px;
+}
+
+@keyframes avatarlibrary{
+    /* 0%   {left:40px; top:-380px;}
+    100%  {left:50px; top:-460px;} */
+    0%   {left:60px; top:-380px;}
+    20%  {left:100px; top:-460px;}
+    40%  {left:160px; top:-380px;}
+    60% {left:200px; top:-460px;}
+    80% {left:260px; top:-380px;}
+    100% {left:300px; top:-460px;}
+}
+
+.avatarlibrary .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 20px;
+    border-radius: 18px;
+    left: 220px;
+    line-height: 140%;
+    font-family: 'Raleway', sans-serif;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+
+.avatarlibrary:hover .tooltiptext {
+    visibility: visible;
+  }
+
+.avatarlibrary .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent white transparent transparent;
+  }
+
+.avatarbathroom{
+    position: relative;
+    left:20px;
+    /* right: -40px; */
+    /* top: -380px;  */
+    animation-name: avatarbathroom;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;   
+    animation-timing-function: linear;
+    max-width: 300px;
+}
+
+@keyframes avatarbathroom{
+    0%   {left:500px; top:-380px;}
+    100%  {left:20px; top:-380px;}
+}
+
+.avatarbathroom .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 20px;
+    border-radius: 18px;
+    left: 220px;
+    line-height: 140%;
+    font-family: 'Raleway', sans-serif;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+
+  .avatarbathroom:hover .tooltiptext {
+    visibility: visible;
+  }

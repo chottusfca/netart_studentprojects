@@ -1,0 +1,26 @@
+
+body {
+    margin: 50px;
+    background-color: #ffdadd;
+
+}
+
+img {
+    width: 33%;
+    cursor: not-allowed;
+}
+
+
+section {
+    display: flex;
+    cursor: not-allowed;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+    

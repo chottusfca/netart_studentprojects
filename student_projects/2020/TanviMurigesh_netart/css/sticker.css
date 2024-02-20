@@ -1,0 +1,15 @@
+body{
+    background-color: #6bd3e5;
+    color:hotpink;
+}
+
+.truth{
+    color:hotpink;
+}
+
+h2{width: 350px;}
+h2, article p{
+text-shadow: 2px 2px 4px gray;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;}
+

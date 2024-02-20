@@ -1,0 +1,55 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before *:after {
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+body {
+    background-color: lightblue;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+header{
+        position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+header h2 {
+    font-size: 5vw;
+    line-height: 5vw;
+    color: black;
+    justify-content: center;
+    text-align: center;
+
+}
+
+header p {
+    font-size: 3vw;
+    line-height: 5vw;
+    color: black;
+    justify-content: center;
+    text-align: center;
+}
+
+nav button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

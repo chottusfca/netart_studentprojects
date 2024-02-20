@@ -1,0 +1,103 @@
+
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*;
+*:before;
+
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0px;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    background-color: black;
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+div{
+    width: 100%;
+    height: 55px;
+    padding: 10px;
+    transition: height ease 1s;
+}
+div:hover{
+    height: 200px;
+border-left: 10px solid white;
+}
+
+#yourself{
+    background-image: url("../img/me22.gif");
+    background-size: cover;
+    background-position: 0 15%;
+}#plane{
+    background-image: url("../img/plane1.gif");
+    background-size: cover;
+    background-position: 0 80%;
+}#sticker{
+    background-image: url("../img/sticker1.gif");
+    background-size: cover;
+    background-position: 0 45%;
+}#arcade{
+    background-image: url("../img/arcadebg.gif");
+    background-size: cover;
+    background-position: 0 0;
+}#design{
+    background-image: url("../img/design4.gif");
+    background-size: cover;
+    background-position: 0 30%;
+}#home{
+    background-image: url("../img/pool.gif");
+    background-size: cover;
+    background-position: 0 30%;
+}#icecream{
+    background-image: url("../img/icecream2.gif");
+    background-size: cover;
+    background-position: 0 60%;
+}#light{
+    background-image: url("../img/lights1.gif");
+    background-size: cover;
+    background-position: 0 30%;
+}#rainbow{
+    background-image: url("../img/rainbow2.gif");
+    background-size: cover;
+    background-position: 0 0;
+}#tea{
+    background-image: url("../img/tea4.gif");
+    background-size: cover;
+    background-position: 0 0;
+}
+#makeup{
+    background-image: url("../img/makeup2.gif");
+    background-size: cover;
+    background-position: 0 35%;
+}
+#sunset{
+    background-image: url("../img/sunset2.gif");
+    background-size: cover;
+    background-position: 0 49%;
+}
+#cat{
+    background-image: url("../img/cat2.gif");
+    background-size: cover;
+    background-position: 0 53%;
+}#transit{
+    background-image: url("../img/bus2.gif");
+    background-size: cover;
+    background-position: 0 50%;
+}
+#city{
+    background-image: url("../img/city3.gif");
+    background-size: cover;
+    background-position: 0 50%;
+}

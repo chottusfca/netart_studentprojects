@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+
+body {
+    font-family: 'Russo One', sans-serif;
+    background-color: pink;
+}
+
+.egg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.egg:hover {
+    opacity: 0%;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 100px;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+h2:hover {
+    transform: scale (2, 2);
+    color: deeppink;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+}
+
+a:link,
+a:visited {
+    color: floralwhite;
+}
+
+a:hover {
+    color: deeppink;
+}
+
+.coin {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.coin:hover {
+    transform: translate(0px, 400px);
+    transition-duration: 3s;
+    z-index: -100;
+}
+
+.back {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+a .home:hover{
+    transform: scale(2,2);
+}
+.money {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    z-index: 100%;
+}
+
+a .back:hover {
+    transform: scale(2, 2);
+}

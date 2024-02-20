@@ -1,0 +1,287 @@
+/* ----- fonts ----- */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Source+Code+Pro:wght@300;400;500&display=swap');
+
+/* ----- universal ----- */
+
+html {
+    box-sizing: border-box;
+    font-family: 'source code pro';
+    font-weight: 300;
+    font-size: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* ----- general ----- */
+
+
+h2 {
+    font-weight: 400;
+    font-size: 2.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+/* ----- classes ----- */
+
+.hacking {
+    background-color: #0A0A0A;
+    color: #4CAF50;
+}
+
+.online {
+    width: .75em;
+    height: .75em;
+    border-radius: .75em;
+    background-color: #83F52C;
+    position: absolute;
+    top: 26.7em;
+    left: 28.55em;
+    z-index: 100;
+    animation-name: online;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes online {
+    0% {
+        background-color: #83F52C;
+    }
+
+    25% {
+        opacity: .5;
+    }
+
+    50% {
+        opacity: .25;
+    }
+
+    75% {
+        opacity: .5;
+    }
+
+    100% {
+        background-color: #83F52C;
+    }
+}
+
+/* ---------- "webcam" ---------- */
+
+.camera {
+    position: relative;
+    bottom: 13.5em;
+    left: 5.71em;
+    transition: opacity;
+}
+
+.camera:hover ~ .ally {
+    opacity: 1;
+}
+
+.bear {
+    /* not u not practicing what u preach!? */
+    width: 50%;
+    height: 50%;
+    position: relative;
+    bottom: 31em;
+    left: 15em;
+}
+
+.ally {
+    /* girl, boo you for doing this resizing smh */
+    width: 50%;
+    height: 50%;
+    position: relative;
+    bottom: 30.8em;
+    left: 17.23em;
+    opacity: 0;
+    transition-delay: 1s;
+}
+
+/* ----- ids ----- */
+
+#indexcenter {
+    margin: auto;
+    width: 50%;
+    padding: 14.8% 0%;
+    text-align: center;
+}
+
+#indexcaption {
+    font-weight: 400;
+    font-size: .8em;
+}
+
+#denied {
+    padding: 25%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+#successcenter {
+    margin: auto;
+    width: 50%;
+    padding: 23.8% 0%;
+    text-align: center;
+}
+
+#back {
+    padding: 5%;
+    font-weight: 500;
+}
+
+#yahoo {
+    background-color: #FCF1FF;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#smol {
+    font-size: .7em;
+}
+
+#name {
+    padding: 35% 0%;
+}
+
+/* ---------- emojis ---------- */
+
+#dog {
+    position: relative;
+    right: 20em;
+}
+
+#foot {
+    position: relative;
+    left: 15em;
+}
+
+#tarsier {
+    position: relative;
+    right: 10em;
+}
+
+#grin {
+    position: absolute;
+    top: 60em;
+    left: 18em;
+}
+
+#sad {
+    position: absolute;
+    top: 45em;
+    right: 20em;
+}
+
+#nerd {
+    position: absolute;
+    top: 78em;
+    right: 3em;
+}
+
+#cool {
+    position: absolute;
+    top: 70em;
+    left: 1em;
+}
+
+#love {
+    position: absolute;
+    top: 90em;
+    right: 20em;
+}
+
+/* ---------- chatbox ---------- */
+
+#chatplacement {
+    position: relative;
+    top: 20em;
+    right: 15em;
+}
+
+#chatbox {
+    width: 60%;
+    height: 290px;
+    /*this is in px miss girl fix it*/
+    overflow: scroll;
+    font-family: 'roboto';
+    font-size: .8em;
+    text-align: left;
+    position: relative;
+    bottom: 8.5em;
+    right: 14.5em;
+}
+
+/* log in form - start */
+form {
+    width: 70%;
+    padding: 1%;
+    margin: auto;
+    text-align: left;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 2%;
+    margin: 3% 0%;
+    display: flex;
+    font-size: .5em;
+    font-family: 'source code pro';
+    font-weight: 500;
+    text-align: left;
+}
+
+button {
+    background-color: #0A0A0A;
+    color: #4CAF50;
+    width: 48.5%;
+    padding: 1%;
+    margin: 3% 0%;
+    border: 1% solid #4CAF50;
+    cursor: pointer;
+    font-family: 'source code pro';
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancel {
+    background-color: #0A0A0A;
+    color: #4CAF50;
+    width: 48.5%;
+    padding: 1%;
+    margin: 3% 0%;
+    border: 1% solid #4CAF50;
+    cursor: pointer;
+    font-family: 'source code pro';
+}
+
+.cancel:hover {
+    opacity: 0.8;
+}
+
+.container {
+    padding: 16px;
+}
+
+.space {
+    padding: 1% 0%;
+}
+
+/* log in form - end */

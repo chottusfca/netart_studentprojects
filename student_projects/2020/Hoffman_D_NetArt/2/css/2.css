@@ -1,0 +1,136 @@
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+
+html {
+    box-sizing: border-box;
+    font-family: 'Lacquer', sans-serif;
+    cursor: crosshair;
+}
+
+
+*,
+*before,
+*after {
+    box-sizing: inherit;
+}
+
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-image: url("../../img/glitched.gif");
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #ff7b00;
+}
+
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+
+
+/* ----------------------------------------
+Nav
+------------------------------------------- */
+
+
+a {
+
+    text-decoration: none;
+}
+
+
+/* ----------------------------------------
+Layout
+------------------------------------------- */
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+
+h1 {
+    color: #3300ff;
+    font-size: 80px;
+    font-family: 'Lacquer', sans-serif;
+
+    /*keep the position centered*/
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+h2 {
+    color: #3300ff;
+    font-size: 60px;
+    /*keep the position centered*/
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 95%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+h2:hover {
+
+    cursor: pointer;
+    color: white;
+}
+
+h3 {
+    color: #3300ff;
+    font-size: 60px;
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+h3:hover {
+    
+    cursor: pointer;
+    color: white;
+}
+
+#placeholder {
+
+   position:fixed;
+    bottom:10%;
+    left:33%;
+    right: 50%;
+
+    height: 500px;
+    width: 500px;
+
+}
+
+#typing {
+
+    z-index: -50;
+    position:fixed;
+    bottom:0%;
+    left:33%;
+    right: 50%;
+
+    height: 500px;
+    width: 500px;
+
+}
+
+/* ----------------------------------------
+Aside
+------------------------------------------- */
+
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */

@@ -1,0 +1,62 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+body {
+   margin: auto; 
+   padding: 0;
+   cursor: url('../img/heartcur'), auto;
+   background-image: url('../img/musicvis.gif');
+  background-repeat:repeat;
+  align-content: center;
+}
+.cgames1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   align-items: center;
+   justify-items: center;
+   top:50px;
+   position:relative;
+   justify-content: space-evenly;
+}
+
+.cgames2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+   position:relative;
+   justify-content: space-evenly;
+}
+.stuff {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+   position:relative;
+   justify-content: space-evenly;
+   top:50px;
+}
+.vids {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+}
+img:hover{
+    transform:skew(2deg,3deg);
+}
+.logo {
+    width: 200;
+    position: relative;
+    left: 300px;
+    top: 10%;
+}

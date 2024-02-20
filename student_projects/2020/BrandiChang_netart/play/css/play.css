@@ -1,0 +1,309 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0 auto; /* auto split spacing on both sides */
+    padding: 0;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+audio {
+    display: none;
+}
+
+.play1:link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+} 
+.play2:link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+} 
+.play3:link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+} 
+.play4:link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+} 
+.play5:link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+} 
+.play6:link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+} 
+.play7:link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+} 
+.play8:link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+} 
+.play9:link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+} 
+.play10:link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+} 
+.play11:link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+} 
+.play12:link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+} 
+.play13:link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+} 
+.play14:link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+} 
+.play15:link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+} 
+.play16:link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+} 
+.play17:link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+} 
+.play18:link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.play19:link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.play20:link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.play1:hover {
+    background-color: rgba(255, 255, 255,0);
+    color: black;
+}
+.play2:hover {
+    background-color: rgba(255, 255, 255,0);
+    color: black;
+}
+.play3:hover {
+    background-color: rgba(255, 255, 255,0);
+    color: black;
+}
+.play4:hover {
+    background-color: rgba(255, 255, 255,0);
+    color: black;
+}
+
+ .play5:hover {
+    background-color: rgba(255, 255, 255,0);
+    color: black;
+}
+.play6:hover {
+    background-color: rgba(255, 255, 255,0);
+    color: black;
+}
+.play7:hover {
+    background-color: rgba(255, 255, 255,0);
+    color: black;
+}
+.play8:hover {
+    background-color: rgba(255, 255, 255,0);
+    color: black;
+}
+.play9:hover {
+    background-color: rgba(255, 255, 255,0);
+    color: black;
+}
+.play10:hover {
+    background-color: rgba(255, 255, 255,0);
+    color: black;
+}
+.play11:hover {
+    background-color: rgba(255, 255, 255,0);
+    color: black;
+}
+.play12:hover {
+    background-color: rgba(255, 255, 255,0);
+    color: black;
+}
+.play13:hover {
+    background-color: rgba(255, 255, 255,0);
+    color: black;
+}
+.play14:hover {
+    background-color: rgba(255, 255, 255,0);
+    color: black;
+}
+.play15:hover {
+    background-color: rgba(255, 255, 255,0);
+    color: black;
+}
+.play16:hover {
+    background-color: rgba(255, 255, 255,0);
+    color: black;
+}
+.play17:hover {
+    background-color: rgba(255, 255, 255,0);
+    color: black;
+}
+.play18:hover {
+    background-color: rgba(255, 255, 255,0);
+    color: black;
+}
+.play19:hover {
+    background-color: rgba(255, 255, 255,0);
+    color: black;
+}
+.play20:hover {
+    background-color: rgba(255, 255, 255,0);
+    color: black;
+}
+
+
+.play1:visited {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+}
+.play2:visited {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+}
+.play3:visited {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+}
+.play4:visited {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+}
+.play5:visited {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+}
+.play6:visited {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+}
+.play7:visited {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+}
+.play8:visited {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+}
+.play9:visited {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+}
+.play10:visited {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+}
+.play11:visited {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+}
+.play12:visited {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+}
+.play13:visited {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+}
+.play14:visited {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+}
+.play15:visited {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+}
+.play16:visited {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+}
+.play17:visited {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+}
+.play18:visited {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+}
+.play19:visited {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+}
+.play20:visited {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+}
+
+.cat {
+    width: 30%;
+    margin: 0 auto -50px;
+}
+
+.dog {
+    width: 30%;
+    margin: 0 auto -50px;
+}
+
+.animals {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    z-index: -10;
+    position: absolute;
+    margin-top: -400px;
+}
+

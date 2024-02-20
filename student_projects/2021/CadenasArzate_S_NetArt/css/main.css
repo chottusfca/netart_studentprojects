@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+/*FULL PAGE STYLES*/
+
+body {
+    background-color: #EAEAEA;
+    align-content: center;
+    margin: auto;   
+}
+
+/*--PAGE ONE--*/
+
+.box-01 {
+    text-align: center;
+    margin-top: 8%;
+    font-family: 'DM Sans', sans-serif;
+    font-style: light;
+    font-size: 30px;
+    color: blue;
+}
+
+/*cardboard-box*/
+
+a > img { 
+    width: 500px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#cardboard-box:hover {
+    animation: bounce 1s;
+}
+
+/*moving text*/
+
+@keyframes tilt {
+    0%,100%{
+        transform: rotate(-20deg);
+    }
+    
+    25%{
+        transform: rotate(50deg);  
+    }
+    
+    50%{
+        transform: rotate(20deg);
+    }
+    
+    75%{
+       transform: rotate(-50deg);
+    }   
+}
+
+#moving-text{
+    font-size: 25px;
+    margin-left: 55%;
+    margin-right: 30%;
+    position:relative;
+    padding: 10px;
+    top: -535px;
+    animation: tilt 2.5s infinite;
+}
+
+/*--PAGE TWO--*/
+
+.bigger-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 13%;
+    margin-right: 13%;
+    width: ;
+    
+}
+
+.question {
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    color: blue;
+    font-size: 40px; 
+}
+
+.style-chosen{
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 25px;
+    background-color: blue;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 50px;
+
+}
+
+.main-container {
+    margin-left: 13%;
+    margin-right: 13%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;  
+}
+
+.main-container a{
+    text-decoration: none;
+    color: blue;
+}
+
+.main-container a:hover{
+    background-color: blue;
+    color: white;
+}
+
+.styles-pt1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    width: 200px;
+    height: 455px;
+    border: solid 2px blue;
+}
+
+.styles-pt2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    width: 200px;
+    height: 455px;
+    border: solid 2px blue;
+}
+
+.main-img{
+    border-top: solid 2px blue;
+    border-bottom: solid 2px blue;
+}
+
+.mini-nav{
+    display: flex;
+    flex direction:row;
+    position: absolute;
+    margin-left:12.75%;
+    margin-top: 10px;
+}
+
+/*mini-nav*/
+
+.mini-nav img{
+   width: 50px;
+}
+
+#back-1st:hover{
+    animation: bounce 1s
+}
+
+#reset:hover{
+    animation: bounce 1s
+}
+
+/*floating clothes*/
+
+.jacket{
+    position: absolute;
+    width: 300px;
+    top: -10px;
+    left: 100px;
+    animation: tilt 4s infinite;
+}
+
+.shoes{
+    position: absolute;
+    width: 300px;
+    top: 50px;
+    right: 450px;
+    animation: tilt 4s infinite;
+    animation-direction: reverse;
+}
+
+.pants{
+    position: absolute;
+    width: 300px;
+    top: 545px;
+    right: 70px;
+    animation: tilt 4s infinite;
+    animation-direction: alternate;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+<!DOCTYPE <!DOCTYPE html>
+<!--Pixie Hollow-->
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pixie Hollow</title>
+    <link rel="icon" type="image/x-icon" href="img/pixie-hollow-favicon.png"
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<nav>
+    <a href="index.html"><img src="img/button_back_white.png"></a>
+</nav>
+
+<body id="pixie-hollow">
+    <div class="cursor"></div>
+    <div class="sparkle-trail"></div>
+    <audio controls autoplay style="visibility: hidden" src="audio/ethereal-fairy-glitter.mp3"> 
+    </audio> 
+
+</body>
+
+<script>
+    document.addEventListener('mousemove', function (e) {
+        var cursor = document.querySelector('.cursor');
+        var cursorWidth = cursor.offsetWidth;
+        var cursorHeight = cursor.offsetHeight;
+        var mouseX = e.pageX - (cursorWidth / 2);
+        var mouseY = e.pageY - (cursorHeight / 2);
+        cursor.style.left = mouseX + 'px';
+        cursor.style.top = mouseY + 'px';
+
+        var sparkleTrail = document.querySelector('.sparkle-trail');
+        var sparkle = document.createElement('div');
+        sparkle.classList.add('sparkle');
+        sparkle.style.backgroundColor = getRandomColor();
+        sparkle.style.left = e.pageX + 'px';
+        sparkle.style.top = e.pageY + 'px';
+        sparkleTrail.appendChild(sparkle);
+        setTimeout(function () {
+            sparkle.remove();
+        }, 1000);
+    });
+
+    function getRandomColor() {
+        var colors = ['#FFC0CB', '#FFD700', '#00FF7F', '#00BFFF', '#EE82EE'];
+        return colors[Math.floor(Math.random() * colors.length)];
+    }
+
+</script>
+
+</html>

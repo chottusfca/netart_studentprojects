@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Montserrat&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-image: url(../img/background.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.computer {
+    text-align: center;
+    border: none;
+    padding-top: 0px;
+}
+
+.mouse1 {
+    position: absolute;
+    z-index: 100;
+    top: 550px;
+    left: 643px;
+}
+
+.mouse1:hover {
+    transform: rotate(8deg);
+    top: 560px;
+    left: 635px;
+}
+
+
+.mouse2 {
+    position: absolute;
+    z-index: 100;
+    top: 550px;
+    left: 643px;
+}
+
+.mouse2:hover {
+    transform: rotate(8deg);
+    top: 560px;
+    left: 635px;
+}

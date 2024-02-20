@@ -1,0 +1,163 @@
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+
+html {
+    box-sizing: border-box;
+    font-family: 'Lacquer', sans-serif;
+    cursor: crosshair;
+}
+
+
+*,
+*before,
+*after {
+    box-sizing: inherit;
+}
+
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-image: url("../../img/glitched.gif");
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #ff7b00;
+}
+
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+
+
+/* ----------------------------------------
+Nav
+------------------------------------------- */
+
+
+a {
+
+    text-decoration: none;
+}
+
+
+/* ----------------------------------------
+Layout
+------------------------------------------- */
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+
+h1 {
+    color: #3300ff;
+    font-size: 80px;
+    font-family: 'Lacquer', sans-serif;
+
+    /*keep the position centered*/
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+h2 {
+    color: #3300ff;
+    font-size: 60px;
+    /*keep the position centered*/
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 95%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+h2:hover {
+
+    cursor: pointer;
+    color: white;
+}
+
+h3 {
+    color: #3300ff;
+    font-size: 60px;
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+h3:hover {
+    
+    cursor: pointer;
+    color: white;
+}
+
+#ring {
+
+    /*position to center*/
+    z-index: -20;
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 33%;
+
+    height: 500px;
+    width: 500px;
+    
+/*
+    RINGING EFFECT START https://codepen.io/Mrshcom/pen/bqmFg 
+*/
+    
+ -webkit-animation: ring 4s .7s ease-in-out infinite;
+    
+}
+
+@-webkit-keyframes ring {
+  0% { -webkit-transform: rotateZ(0); }
+  1% { -webkit-transform: rotateZ(30deg); }
+  3% { -webkit-transform: rotateZ(-28deg); }
+  5% { -webkit-transform: rotateZ(34deg); }
+  7% { -webkit-transform: rotateZ(-32deg); }
+  9% { -webkit-transform: rotateZ(30deg); }
+  11% { -webkit-transform: rotateZ(-28deg); }
+  13% { -webkit-transform: rotateZ(26deg); }
+  15% { -webkit-transform: rotateZ(-24deg); }
+  17% { -webkit-transform: rotateZ(22deg); }
+  19% { -webkit-transform: rotateZ(-20deg); }
+  21% { -webkit-transform: rotateZ(18deg); }
+  23% { -webkit-transform: rotateZ(-16deg); }
+  25% { -webkit-transform: rotateZ(14deg); }
+  27% { -webkit-transform: rotateZ(-12deg); }
+  29% { -webkit-transform: rotateZ(10deg); }
+  31% { -webkit-transform: rotateZ(-8deg); }
+  33% { -webkit-transform: rotateZ(6deg); }
+  35% { -webkit-transform: rotateZ(-4deg); }
+  37% { -webkit-transform: rotateZ(2deg); }
+  39% { -webkit-transform: rotateZ(-1deg); }
+  41% { -webkit-transform: rotateZ(1deg); }
+
+  43% { -webkit-transform: rotateZ(0); }
+  100% { -webkit-transform: rotateZ(0); }
+}
+
+/*
+    RINGING EFFECT END https://codepen.io/Mrshcom/pen/bqmFg   
+*/
+
+/* ----------------------------------------
+Aside
+------------------------------------------- */
+
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */

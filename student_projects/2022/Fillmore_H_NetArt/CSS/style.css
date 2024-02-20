@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Gideon+Roman&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    background-color: mediumturquoise;
+}
+
+h1{
+    font-size: 100px;
+    font-family: 'Cormorant', serif;
+    font-family: 'Gideon Roman', cursive;
+    color: wheat;
+    text-align: center;
+}
+
+h2{
+    font-size: 50px;
+    font-family: 'Cormorant', serif;
+    font-family: 'Gideon Roman', cursive;
+    color: black;
+    padding-left: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.islands{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.islands2{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.KI{
+    transition: transform .7s ease-in-out;
+}
+.KI:hover{
+    transform: rotate(20deg);
+}
+
+.SI:hover{
+    animation: rotate(20deg);
+}
+
+.CI:hover{
+    animation: rotate(20deg);
+}
+
+.RI:hover{
+    animation: rotate(20deg);
+}
+
+body.Kauai{background-image:url(../img/kauai_reverb.jpg);}
+
+body.Saguaro{background-image: url(../img/Saguaro_Phaser.jpg);}
+
+body.Canyonlands{background-image: url(../img/Canyonlands_Echo.jpg);}
+
+body.Rocky{background-image: url(../img/Montañas.jpg);}

@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+    background: url(img/WiiSportsBackgroundEcho.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+   
+}
+
+.move {
+    position:fixed;
+    bottom:0;
+    left:0;
+}
+
+.BowlingBall {
+    font-size: 10vh;
+    background-image:url(img/BowlingBall.png)
+}
